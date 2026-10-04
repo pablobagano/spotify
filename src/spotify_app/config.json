@@ -1,0 +1,5 @@
+{
+    "URL": "spotify-extended-audio-features-api.p.rapidapi.com", 
+    "RECOMMENDANTIONS": "/v1/recommendations",
+    "GENRES": "/v1/recommendations/available-genre-seeds"
+}

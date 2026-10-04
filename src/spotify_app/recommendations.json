@@ -1,0 +1,63 @@
+{
+    "seed_artists": null,
+    "seed_genres": null,
+    "seed_tracks": null,
+    "limit": null,
+    "market": null,
+
+    "min_acousticness": null,
+    "max_acousticness": null,
+    "target_acousticness": null,
+
+    "min_danceability": null,
+    "max_danceability": null,
+    "target_danceability": null,
+
+    "min_duration_ms": null,
+    "max_duration_ms": null,
+    "target_duration_ms": null,
+
+    "min_energy": null,
+    "max_energy": null,
+    "target_energy": null,
+
+    "min_instrumentalness": null,
+    "max_instrumentalness": null,
+    "target_instrumentalness": null,
+
+    "min_key": null,
+    "max_key": null,
+    "target_key": null,
+
+    "min_liveness": null,
+    "max_liveness": null,
+    "target_liveness": null,
+
+    "min_loudness": null,
+    "max_loudness": null,
+    "target_loudness": null,
+
+    "min_mode": null,
+    "max_mode": null,
+    "target_mode": null,
+
+    "min_popularity": null,
+    "max_popularity": null,
+    "target_popularity": null,
+
+    "min_speechiness": null,
+    "max_speechiness": null,
+    "target_speechiness": null,
+
+    "min_tempo": null,
+    "max_tempo": null,
+    "target_tempo": null,
+
+    "min_time_signature": null,
+    "max_time_signature": null,
+    "target_time_signature": null,
+
+    "min_valence": null,
+    "max_valence": null,
+    "target_valence": null
+}
