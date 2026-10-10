@@ -1,0 +1,15 @@
+{
+  "mood": "high_energy_heavy_guitar",
+  "endpoint": "https://spotify-extended-audio-features-api.p.rapidapi.com/v1/recommendations",
+  "requested_at": "2026-10-10T18:46:50.298730+00:00",
+  "parameters": {
+    "seed_genres": "heavy metal,glam rock,hard rock,alternative metal,groove metal",
+    "limit": 100,
+    "market": "BR",
+    "min_energy": 0.75,
+    "target_energy": 0.9,
+    "target_tempo": 145,
+    "target_loudness": -5,
+    "max_acousticness": 0.15
+  }
+}

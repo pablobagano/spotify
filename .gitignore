@@ -23,3 +23,5 @@ DEVELOPER_SEQUENCE_FLOW.md
 lyric_recommendation_specification.md
 src/spotify_app/recommendation_params.md
 *.db
+*.db-shm
+*.db-wal

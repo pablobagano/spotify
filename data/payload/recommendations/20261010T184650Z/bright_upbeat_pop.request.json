@@ -1,0 +1,15 @@
+{
+  "mood": "bright_upbeat_pop",
+  "endpoint": "https://spotify-extended-audio-features-api.p.rapidapi.com/v1/recommendations",
+  "requested_at": "2026-10-10T18:47:00.947046+00:00",
+  "parameters": {
+    "seed_genres": "pop,power pop,indie pop,electropop,synthpop",
+    "limit": 100,
+    "market": "BR",
+    "target_energy": 0.72,
+    "target_danceability": 0.72,
+    "min_valence": 0.6,
+    "target_valence": 0.82,
+    "target_tempo": 118
+  }
+}

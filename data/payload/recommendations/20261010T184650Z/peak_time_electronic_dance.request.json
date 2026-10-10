@@ -1,0 +1,16 @@
+{
+  "mood": "peak_time_electronic_dance",
+  "endpoint": "https://spotify-extended-audio-features-api.p.rapidapi.com/v1/recommendations",
+  "requested_at": "2026-10-10T18:46:56.261373+00:00",
+  "parameters": {
+    "seed_genres": "edm,electro house,big room,dance pop,house",
+    "limit": 100,
+    "market": "BR",
+    "min_energy": 0.75,
+    "target_energy": 0.9,
+    "min_danceability": 0.65,
+    "target_danceability": 0.8,
+    "target_tempo": 128,
+    "max_acousticness": 0.1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "mood": "bright_upbeat_pop",
+  "requested_at": "2026-10-10T18:47:00.947046+00:00",
+  "finished_at": "2026-10-10T18:47:08.112157+00:00",
+  "status": "succeeded",
+  "status_code": 200,
+  "content_type": "application/json",
+  "response_file": "bright_upbeat_pop.response.json"
+}

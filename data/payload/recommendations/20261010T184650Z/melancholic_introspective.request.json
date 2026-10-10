@@ -1,0 +1,16 @@
+{
+  "mood": "melancholic_introspective",
+  "endpoint": "https://spotify-extended-audio-features-api.p.rapidapi.com/v1/recommendations",
+  "requested_at": "2026-10-10T18:47:23.536364+00:00",
+  "parameters": {
+    "seed_genres": "dream pop,slowcore,emo,emo pop,indie rock",
+    "limit": 100,
+    "market": "BR",
+    "max_valence": 0.35,
+    "target_valence": 0.2,
+    "max_energy": 0.55,
+    "target_energy": 0.35,
+    "target_tempo": 80,
+    "target_loudness": -12
+  }
+}

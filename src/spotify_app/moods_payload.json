@@ -1,0 +1,109 @@
+{
+  "high_energy_heavy_guitar": {
+    "seed_genres": "heavy metal,glam rock,hard rock,alternative metal,groove metal",
+    "limit": 100,
+    "market": "BR",
+    "min_energy": 0.75,
+    "target_energy": 0.9,
+    "target_tempo": 145,
+    "target_loudness": -5,
+    "max_acousticness": 0.15
+  },
+  "peak_time_electronic_dance": {
+    "seed_genres": "edm,electro house,big room,dance pop,house",
+    "limit": 100,
+    "market": "BR",
+    "min_energy": 0.75,
+    "target_energy": 0.9,
+    "min_danceability": 0.65,
+    "target_danceability": 0.8,
+    "target_tempo": 128,
+    "max_acousticness": 0.1
+  },
+  "bright_upbeat_pop": {
+    "seed_genres": "pop,power pop,indie pop,electropop,synthpop",
+    "limit": 100,
+    "market": "BR",
+    "target_energy": 0.72,
+    "target_danceability": 0.72,
+    "min_valence": 0.6,
+    "target_valence": 0.82,
+    "target_tempo": 118
+  },
+  "deep_focus_instrumental": {
+    "seed_genres": "ambient,lo-fi,classical,post-rock,minimal techno",
+    "limit": 100,
+    "market": "BR",
+    "max_speechiness": 0.1,
+    "min_instrumentalness": 0.55,
+    "target_instrumentalness": 0.8,
+    "target_energy": 0.3,
+    "target_tempo": 85
+  },
+  "relax_acoustic": {
+    "seed_genres": "acoustic folk,acoustic pop,singer-songwriter,folk,indie folk",
+    "limit": 100,
+    "market": "BR",
+    "min_acousticness": 0.65,
+    "target_acousticness": 0.85,
+    "max_energy": 0.45,
+    "target_energy": 0.3,
+    "target_tempo": 82,
+    "max_loudness": -10
+  },
+  "melancholic_introspective": {
+    "seed_genres": "dream pop,slowcore,emo,emo pop,indie rock",
+    "limit": 100,
+    "market": "BR",
+    "max_valence": 0.35,
+    "target_valence": 0.2,
+    "max_energy": 0.55,
+    "target_energy": 0.35,
+    "target_tempo": 80,
+    "target_loudness": -12
+  },
+  "warm_romantic_slow_groove": {
+    "seed_genres": "neo soul,r&b,quiet storm,lovers rock,bossa nova",
+    "limit": 100,
+    "market": "BR",
+    "target_energy": 0.45,
+    "min_danceability": 0.45,
+    "target_danceability": 0.65,
+    "target_valence": 0.65,
+    "target_tempo": 95,
+    "max_speechiness": 0.3
+  },
+  "lyric_forward_hip_hop": {
+    "seed_genres": "hip hop,alternative hip hop,rap,boom bap,underground hip hop",
+    "limit": 100,
+    "market": "BR",
+    "min_speechiness": 0.15,
+    "target_speechiness": 0.28,
+    "target_danceability": 0.72,
+    "target_energy": 0.68,
+    "target_tempo": 95,
+    "max_instrumentalness": 0.15
+  },
+  "dark_atmospheric": {
+    "seed_genres": "dark ambient,trip hop,gothic rock,doom metal,darkwave",
+    "limit": 100,
+    "market": "BR",
+    "max_valence": 0.3,
+    "target_valence": 0.15,
+    "target_energy": 0.45,
+    "target_instrumentalness": 0.4,
+    "target_tempo": 75,
+    "target_loudness": -11
+  },
+  "joyful_tropical_dance": {
+    "seed_genres": "samba,salsa,latin pop,reggaeton,afrobeat",
+    "limit": 100,
+    "market": "BR",
+    "min_danceability": 0.65,
+    "target_danceability": 0.82,
+    "min_valence": 0.6,
+    "target_valence": 0.85,
+    "target_energy": 0.75,
+    "target_tempo": 108
+  }
+}

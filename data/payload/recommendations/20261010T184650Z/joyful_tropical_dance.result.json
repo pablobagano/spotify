@@ -1,0 +1,9 @@
+{
+  "mood": "joyful_tropical_dance",
+  "requested_at": "2026-10-10T18:47:46.485364+00:00",
+  "finished_at": "2026-10-10T18:47:51.418507+00:00",
+  "status": "succeeded",
+  "status_code": 200,
+  "content_type": "application/json",
+  "response_file": "joyful_tropical_dance.response.json"
+}

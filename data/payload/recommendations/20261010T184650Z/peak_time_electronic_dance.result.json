@@ -1,0 +1,9 @@
+{
+  "mood": "peak_time_electronic_dance",
+  "requested_at": "2026-10-10T18:46:56.261373+00:00",
+  "finished_at": "2026-10-10T18:47:00.944669+00:00",
+  "status": "succeeded",
+  "status_code": 200,
+  "content_type": "application/json",
+  "response_file": "peak_time_electronic_dance.response.json"
+}

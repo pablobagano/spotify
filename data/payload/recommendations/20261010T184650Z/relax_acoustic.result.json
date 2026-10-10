@@ -1,0 +1,9 @@
+{
+  "mood": "relax_acoustic",
+  "requested_at": "2026-10-10T18:47:16.734928+00:00",
+  "finished_at": "2026-10-10T18:47:23.533931+00:00",
+  "status": "succeeded",
+  "status_code": 200,
+  "content_type": "application/json",
+  "response_file": "relax_acoustic.response.json"
+}

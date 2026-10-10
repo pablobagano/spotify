@@ -1,0 +1,16 @@
+{
+  "mood": "relax_acoustic",
+  "endpoint": "https://spotify-extended-audio-features-api.p.rapidapi.com/v1/recommendations",
+  "requested_at": "2026-10-10T18:47:16.734928+00:00",
+  "parameters": {
+    "seed_genres": "acoustic folk,acoustic pop,singer-songwriter,folk,indie folk",
+    "limit": 100,
+    "market": "BR",
+    "min_acousticness": 0.65,
+    "target_acousticness": 0.85,
+    "max_energy": 0.45,
+    "target_energy": 0.3,
+    "target_tempo": 82,
+    "max_loudness": -10
+  }
+}

@@ -1,17 +1,18 @@
+import logging
 import sqlite3
 from contextlib import contextmanager
 from pathlib import Path
 from typing import Iterator
 
+from spotify_app.config import PROJECT_ROOT
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_DATABASE_PATH = PROJECT_ROOT / "data/spotify_catalog.db"
+DEFAULT_DATABASE_PATH = PROJECT_ROOT / "data" / "spotify_catalog.db"
 
 
 class Database:
     def __init__(self, path: Path = DEFAULT_DATABASE_PATH) -> None:
         self.path = Path(path)
-    
+
     def connect(self) -> sqlite3.Connection:
         self.path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -21,7 +22,6 @@ class Database:
         connection.execute("PRAGMA journal_mode = WAL")
 
         return connection
-    
 
     @contextmanager
     def transaction(self) -> Iterator[sqlite3.Connection]:
@@ -35,12 +35,10 @@ class Database:
             raise
         finally:
             connection.close()
-    
 
     def execute_script(self, sql: str) -> None:
         with self.transaction() as connection:
             connection.executescript(sql)
-    
 
     def fetch_all(
         self,
@@ -73,7 +71,7 @@ database = Database()
 def main() -> None:
     connection = database.connect()
     connection.close()
-    print(f"Database ready at {database.path}")
+    logging.info("Database ready at %s", database.path)
 
 
 if __name__ == "__main__":

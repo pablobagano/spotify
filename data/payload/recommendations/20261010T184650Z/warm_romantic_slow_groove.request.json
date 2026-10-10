@@ -1,0 +1,16 @@
+{
+  "mood": "warm_romantic_slow_groove",
+  "endpoint": "https://spotify-extended-audio-features-api.p.rapidapi.com/v1/recommendations",
+  "requested_at": "2026-10-10T18:47:27.478652+00:00",
+  "parameters": {
+    "seed_genres": "neo soul,r&b,quiet storm,lovers rock,bossa nova",
+    "limit": 100,
+    "market": "BR",
+    "target_energy": 0.45,
+    "min_danceability": 0.45,
+    "target_danceability": 0.65,
+    "target_valence": 0.65,
+    "target_tempo": 95,
+    "max_speechiness": 0.3
+  }
+}

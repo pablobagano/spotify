@@ -1,0 +1,16 @@
+{
+  "mood": "dark_atmospheric",
+  "endpoint": "https://spotify-extended-audio-features-api.p.rapidapi.com/v1/recommendations",
+  "requested_at": "2026-10-10T18:47:40.046727+00:00",
+  "parameters": {
+    "seed_genres": "dark ambient,trip hop,gothic rock,doom metal,darkwave",
+    "limit": 100,
+    "market": "BR",
+    "max_valence": 0.3,
+    "target_valence": 0.15,
+    "target_energy": 0.45,
+    "target_instrumentalness": 0.4,
+    "target_tempo": 75,
+    "target_loudness": -11
+  }
+}

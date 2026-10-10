@@ -1,0 +1,9 @@
+{
+  "mood": "high_energy_heavy_guitar",
+  "requested_at": "2026-10-10T18:46:50.298730+00:00",
+  "finished_at": "2026-10-10T18:46:56.258050+00:00",
+  "status": "succeeded",
+  "status_code": 200,
+  "content_type": "application/json",
+  "response_file": "high_energy_heavy_guitar.response.json"
+}

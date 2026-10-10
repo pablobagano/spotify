@@ -1,0 +1,16 @@
+{
+  "mood": "lyric_forward_hip_hop",
+  "endpoint": "https://spotify-extended-audio-features-api.p.rapidapi.com/v1/recommendations",
+  "requested_at": "2026-10-10T18:47:32.460115+00:00",
+  "parameters": {
+    "seed_genres": "hip hop,alternative hip hop,rap,boom bap,underground hip hop",
+    "limit": 100,
+    "market": "BR",
+    "min_speechiness": 0.15,
+    "target_speechiness": 0.28,
+    "target_danceability": 0.72,
+    "target_energy": 0.68,
+    "target_tempo": 95,
+    "max_instrumentalness": 0.15
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mood": "deep_focus_instrumental",
+  "endpoint": "https://spotify-extended-audio-features-api.p.rapidapi.com/v1/recommendations",
+  "requested_at": "2026-10-10T18:47:08.113397+00:00",
+  "parameters": {
+    "seed_genres": "ambient,lo-fi,classical,post-rock,minimal techno",
+    "limit": 100,
+    "market": "BR",
+    "max_speechiness": 0.1,
+    "min_instrumentalness": 0.55,
+    "target_instrumentalness": 0.8,
+    "target_energy": 0.3,
+    "target_tempo": 85
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "mood": "deep_focus_instrumental",
+  "requested_at": "2026-10-10T18:47:08.113397+00:00",
+  "finished_at": "2026-10-10T18:47:16.732973+00:00",
+  "status": "succeeded",
+  "status_code": 200,
+  "content_type": "application/json",
+  "response_file": "deep_focus_instrumental.response.json"
+}

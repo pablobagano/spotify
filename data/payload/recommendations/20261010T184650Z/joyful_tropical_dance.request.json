@@ -1,0 +1,16 @@
+{
+  "mood": "joyful_tropical_dance",
+  "endpoint": "https://spotify-extended-audio-features-api.p.rapidapi.com/v1/recommendations",
+  "requested_at": "2026-10-10T18:47:46.485364+00:00",
+  "parameters": {
+    "seed_genres": "samba,salsa,latin pop,reggaeton,afrobeat",
+    "limit": 100,
+    "market": "BR",
+    "min_danceability": 0.65,
+    "target_danceability": 0.82,
+    "min_valence": 0.6,
+    "target_valence": 0.85,
+    "target_energy": 0.75,
+    "target_tempo": 108
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "mood": "warm_romantic_slow_groove",
+  "requested_at": "2026-10-10T18:47:27.478652+00:00",
+  "finished_at": "2026-10-10T18:47:32.457970+00:00",
+  "status": "succeeded",
+  "status_code": 200,
+  "content_type": "application/json",
+  "response_file": "warm_romantic_slow_groove.response.json"
+}

@@ -1,0 +1,9 @@
+{
+  "mood": "lyric_forward_hip_hop",
+  "requested_at": "2026-10-10T18:47:32.460115+00:00",
+  "finished_at": "2026-10-10T18:47:40.040710+00:00",
+  "status": "succeeded",
+  "status_code": 200,
+  "content_type": "application/json",
+  "response_file": "lyric_forward_hip_hop.response.json"
+}
